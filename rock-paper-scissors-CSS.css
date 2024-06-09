@@ -1,0 +1,136 @@
+button {
+    cursor:pointer;
+}
+
+.counter {
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    background-color: white;
+}
+
+.reset {
+    width:120px;
+    height:60px;
+    border-radius: 2px;
+    background-color: lightblue;
+    font-size: 25px;
+}
+
+.newRound {
+    width:250px;
+    height:60px;
+    border-radius: 2px;
+    background-color: lightblue;
+    font-size: 25px;
+}
+
+.scoreRow {
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.countersDiv {
+    height: 100;
+    display: grid;
+    place-items: center;
+}
+
+.countersDiv .scoreLabel {
+    padding-right: 10px;
+    font-size: 30px;
+}
+.seperator {
+    height: 50px;
+    width: 200px;
+}
+
+.labelDiv {
+    height:100;
+    background-color: white;
+    display: block;
+    margin-top: 0px;
+}
+.couterDivII{
+    height:100%;
+}
+.playerInput{
+    padding-top: 30px;
+    width: 400px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.controlButtons {
+    padding-top:20px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.moveDisplay {
+    width:1fr;
+    height:1fr;
+    display: flex;
+    justify-content: center;
+}
+.moveDisplayLabel {
+    height:200px;
+    width:150px;
+    border-radius: 1px;
+    border-color:black;
+    border: black;
+    border-style: solid;
+    position: relative;
+
+    top:0px;
+    left:0px;
+}
+.scoreLabelSeperator {
+    width:200px;
+    border:none;
+}
+
+.gameButton {
+    height: 100px;
+    border-radius: 50px;
+    border: solid;
+    border-color: black;
+    cursor:pointer;
+}
+
+.player_label_image {
+    height:150px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+
+    opacity: 0;
+}
+.moveLabelHeader {
+    width:450px;
+    margin:auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.labelDisplayHeader {
+    font-size: 30px;
+}
+.win_banner {
+    width: 1fr;
+    background-color: lightgreen;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    height:50px;
+    font-size: 30px;
+    opacity:0;
+}
